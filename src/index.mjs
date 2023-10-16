@@ -38,7 +38,6 @@ btn.addEventListener("click",async()=>{
     <p>wind-degree</p>
     <h2>${result.wind_degrees}</h2>`
   } catch (error) { 
-    console.log(error)
     errorcard.style.opacity=1
   }
 })
